@@ -3,43 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css"/>
     <title>portfolio</title>
 </head>
 <body>
     <!--Header Section-->
     <header class="header">
-        <a href=""><span style="color: #4d5ae5;">WEB</span><span style="color: #2e2f42;">STUDIO</span></a>
+        <a href=""><span style="color: #4d5ae5;">web</span><span style="color: #2e2f42;">studio</span></a>
         <nav class="navheader">
             <ul>
-                <li><a href="/" style="color: #4d5ae5;">Studio</a></li>
-                <li><a href="/" style="color: #2e2f42;">Portfolio</a></li>
-                <li><a href="/" style="color: #2e2f42;">Contacts</a></li>
+                <li><a href="/" >Studio</a></li>
+                <li><a href="/" >Portfolio</a></li>
+                <li><a href="/" >Contacts</a></li>
             </ul>
         </nav>
         <address class="address">
             <ul>
-                <li><a href="mailto:info@devstudio.com" style="color: #434455;">info@devstudio.com</a></li>
-                <li><a href="+11(000)111-11-11" style="color: #434455;">+11 (000) 111-11-11</a></li>
+                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a href="+11(000)111-11-11">+11 (000) 111-11-11</a></li>
             </ul>
         </address>
     </header>
     
     <!--Main Section-->
     <main>
-        <section class="main">
+        <section class="main-section">
             <h1 hidden>
                 Apps
             </h1>
+            <button class="main-section-button" hidden>
             <button type="button">All</button><br>
             <button type="button">Web Site</button><br>
             <button type="button">App</button><br>
             <button type="button">Design</button><br>
             <button type="button">Marketing</button>
+            </button>
         </section>
 
         <section class="applications">
-            <li><img src="images/bankapp.jpg" alt="banking app interface concept"></li>            
-            <h2>Banking App Interface Concept</h2>
+            <li>
+                <img src="images/bankapp.jpg" alt="banking app interface concept">
+                <h2>Banking App Interface Concept</h2>
+                <h3>App</h3>
+            </li>            
+            <li>
+                <img src="images/cashless.jpg" alt="cashless payment">
+                <h2>Cashless Payment</h2>
+                <h3>Marketing</h3>
+            </li>
+            <li>
+                <img src="images/meditation.jpg" alt="meditation app">
+                <h2>Meditation App</h2>
+                <h3>App</h3>
+            </li>
+            <h2></h2>
         </section>
+        <section class="services">
+            <li>
+                <img src="images/taxi-service.jpg" alt="taxi service">
+                <h2>Taxi Service</h2>
+                <h3>Marketing</h3>
+            </li>
+            <li>
+                <img src="images/screen-illustration.jpg" alt="screen illustrations">
+                <h2>Screen Illustration</h2>
+                <h3>Design</h3>
+            </li>
+            <li>
+                <img src="images/online-courses.jpg" alt="online courses">
+                <h2>Online Courses</h2>
+                <h3>Marketing</h3>
+            </li>
+        </section>
+        <section class="concept"></section>
+            <li>
+                <img src="images/instagram-stories.jpg" alt="instagram stories concept">
+                <h2>Instagram Stories Concept</h2>
+                <h3>Design</h3>
+            </li>
+            <li>
+                <img src="images/organic-food.jpg" alt="organic food">
+                <h2>Organic Food</h2>
+                <h3>Web Site</h3>
+            </li>
+            <li>
+                <img src="images/fresh-coffee.jpg" alt="fresh coffee">
+                <h2>Fresh Coffee</h2>
+                <h3>Web Site</h3>
+            </li>
     </main>
+
+    <!--Footer Section-->
+    <footer>
+        <section class="footer-section">
+            <a class="studio-footer" href=""><span style="color: #4d5ae5;">web</span><span style="color: var(--cloud, #f4f4fd);">studio</span></a>
+            <p>Increase the flow of customers <br> and sales for your business with digital <br> marketing & growth solutions.</p>
+        </section>
+    </footer>
 </body>
+</html>
