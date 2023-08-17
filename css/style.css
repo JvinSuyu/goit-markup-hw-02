@@ -112,3 +112,67 @@
 
 /* Portfolio Header, Main and Footer */
 
+/* Header Section*/
+.header-web{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Raleway;
+}
+.header-portfolio a{
+    text-decoration: none;
+}
+.nav-portfolio li{
+    list-style: none;
+    color: var(--navyblue, #2e2f42);
+    font-family: Roboto;
+    font-weight: 500;
+}
+.info-address{
+    text-decoration: none;
+}
+.info-address li, .info-address a{
+    list-style: none;
+    color: var(--slate, #434455);
+    font-family: Roboto;
+    font-weight: 400;
+}
+
+/* main section*/
+.main-section button{
+    color: var(--iris, #4d5ee5);
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 500;
+    border-radius: 4px;
+    border: 1px solid var(--cornflower, #e7e9fc);
+}
+.applications ul, .services ul, .concept ul{
+    list-style: none;
+}
+.applications h2, .services h2, .concept h2{
+    color: var(--navyblue, #2e2f42);
+    font-family: Roboto;
+    font-weight: 500;
+}
+.applications, .services, .concept{
+    color: var(--slate, #434455);
+    font-family: Roboto;
+    font-weight: 400;
+}
+
+/* footer section */
+.footer-section {
+    background: var(--navyblue, #2e2f42);
+}
+
+.studio-footer {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Raleway;
+}
+
+.footer-section p {
+    color: var(--cloud, #f4f4fd);
+    font-family: Roboto;
+    font-weight: 400;
+}
