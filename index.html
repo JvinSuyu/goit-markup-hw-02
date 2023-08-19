@@ -11,18 +11,30 @@
 <body>
     <!--Header Section-->
     <header class="header">
-            <a class="header-studio" href=""><span style="color: #4d5ae5;">web</span><span style="color: #2e2f42;">studio</span></a>
+            <a class="header-studio" href="">
+                <span class="header-studio-web">web</span>
+                <span class="header-studio-studio">studio</span></a>
             <nav class="header-nav">
-                <ul>
-                    <li><a class="header-studio-link" href="/">Studio</a></li>
-                    <li><a class="header-portfolio" href="/portfolio.html">Portfolio</a></li>
-                    <li><a class="header-contacts" href="/">Contacts</a></li>
+                <ul class="header-nav-list">
+                    <li class="header-nav-list-item">
+                        <a href="/">Studio</a>
+                    </li>
+                    <li class="header-nav-list-item">
+                        <a href="/portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="header-nav-list-item">
+                        <a href="/">Contacts</a>
+                    </li>
                 </ul>
             </nav>
             <address class="header-address">
-                <ul class="info">
-                    <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li><a href="tel:+11(000)111-11-11">+11 (000) 111-11-11</a></li>
+                <ul class="header-address-list">
+                    <li class="header-address-list-item">
+                        <a href="mailto:info@devstudio.com" class="header-address-link">info@devstudio.com</a>
+                    </li>
+                    <li>
+                        <a href="tel:+11(000)111-11-11" class="header-address-link">+11 (000) 111-11-11</a>
+                    </li>
                 </ul>
             </address>
     </header>
@@ -33,17 +45,16 @@
             <h1 class="main-hero">
                 Effective Solutions <br> for Your Business
             </h1>
-            <button class="main-button" type="button">
+            <button class="main-hero-button" type="button">
                 Order Service
             </button>
         </section>
-
-        <section class="features">
+        <section class="main-hero-features">
             <h2 hidden>
                 Features
             </h2>
-            <ul class="features-list">
-                <li>
+            <ul class="main-hero-features-list">
+                <li class="main-hero-features-items">
                     <h3>Strategy</h3>
                     <p>Our goal is to identify the business <br> problem to walk away with the <br> perfect and creative solution.</p>
                 </li>
@@ -62,11 +73,11 @@
             </ul>
         </section>
         
-        <section class="cpdesk">
+        <section class="main-hero-apps">
             <h2>
                 What Are We Doing
             </h2>
-            <ul>
+            <ul class="main-hero-apps-item">
                 <li>
                     <img src="images/desktop.jpg" alt="apple monitor" width="360">                    
                 </li>
@@ -81,7 +92,7 @@
             </ul>           
         </section>
 
-        <section class="team">        
+        <section class="main-team">        
             <h2>
                 Our Team
             </h2>
@@ -117,7 +128,9 @@
     <footer>
         <section class="footer">
             <h5 hidden>footer-section</h5>
-            <a class="footer-studio" href=""><span style="color: #4d5ae5;">web</span><span style="color: var(--cloud, #f4f4fd);">studio</span></a>
+            <a class="footer-studio" href="">
+                <span class="footer-studio-web">web</span>
+                <span class="footer-studio-link">studio</span></a>
             <p>Increase the flow of customers and<br>sales for your business with digital<br>marketing & growth solutions.</p>
         </section>        
     </footer>
