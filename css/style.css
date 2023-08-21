@@ -28,7 +28,6 @@ a{
     color: var(--iris);
     font-family: Raleway;
     font-size: 18px;
-    font-style: normal;
     font-weight: 800;
     line-height: 21px;
     letter-spacing: 0.54px;
@@ -38,7 +37,6 @@ a{
     color: var(--navyblue);
     font-family: Raleway;
     font-size: 18px;
-    font-style: normal;
     font-weight: 800;
     line-height: 21px;
     letter-spacing: 0.54px;
@@ -48,7 +46,6 @@ a{
     color: var(--navyblue);
     font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.32px;
@@ -60,27 +57,23 @@ a{
     color: var(--slate);    
     font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
 }
 
 /* main section*/
-.main{
+.section-hero{
     background: var(--navyblue);
 }
-.main-hero{
+.hero-title{
     color: var(--white);
     text-align: center;
     font-family: Roboto;
     font-size: 56px;
-    font-style: normal;
-    font-weight: 700;
     line-height: 60px;
     letter-spacing: 1.12px;
 }
-.main-hero-button{
+.hero-button{
     display: inline-flex;
     padding: 16px 32px;
     align-items: flex-start;
@@ -91,75 +84,66 @@ a{
     color: var(--white);
     font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.64px;
+    outline: none;
+    border: unset;
 }
-.main-hero-features-list h3{
+.features-list h3{
     color: var(--navyblue);
     font-family: Roboto;
     font-size: 20px;
-    font-style: normal;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.4px;
 }
-.main-hero-features-list p{
+.features-item p{
     color: var(--slate);
     font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
 }
-.main-hero-apps h2{
+.services-title{
     color: var(--navyblue);
     text-align: center;
     font-family: Roboto;
     font-size: 36px;
-    font-style: normal;
-    font-weight: 700;
     line-height: 40px;
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
-.main-hero-apps-images{
+.services-list-item{
     width: 360px;
     height: 300px;
     border: 1px solid var(--cornflower);
     background: url(<path-to-image>), lightgray -72.845px -19px / 144.444% 112.667% no-repeat;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
-.main-our-team h2{
+.team-title{
     color: var(--navyblue);
     text-align: center;
     font-family: Roboto;
     font-size: 36px;
-    font-style: normal;
-    font-weight: 700;
     line-height: 40px;
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
-.main-our-team h3{
+.team-member{
     color: var(--navyblue);
     text-align: center;
     font-family: Roboto;
     font-size: 20px;
-    font-style: normal;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.4px;
 }
-.main-our-team p{
+.team-member-position{
     color: var(--slate);
     text-align: center;
     font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
 }
@@ -172,7 +156,6 @@ a{
     color: var(--iris);
     font-family: Raleway;
     font-size: 18px;
-    font-style: normal;
     font-weight: 800;
     line-height: 21px;
     letter-spacing: 0.54px;
@@ -182,7 +165,6 @@ a{
     color: var(--cloud);
     font-family: Raleway;
     font-size: 18px;
-    font-style: normal;
     font-weight: 800;
     line-height: 21px;
     letter-spacing: 0.54px;
@@ -192,8 +174,6 @@ a{
     color: var(--cloud);
     font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
 }
@@ -205,7 +185,6 @@ a{
     color: var(--navyblue);
     font-family: Raleway;
     font-size: 18px;
-    font-style: normal;
     font-weight: 800;
     line-height: 21px;
     letter-spacing: 0.54px;
@@ -215,30 +194,26 @@ a{
     color: var(--iris);
     font-family: Raleway;
     font-size: 18px;
-    font-style: normal;
     font-weight: 800;
     line-height: 21px;
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
-.header-nav-portfolio-list-item:hover {
-    color: var(--iris);
-}
-.header-nav-portfolio-list-item{
+.nav-portfolio-list-item{
     color: var(--navyblue);
     font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.32px;
+}
+.nav-portfolio-list-item:hover{
+    color: var(--iris);
 }
 .address-list-item-link{
     color: var(--slate);
     font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
 }
@@ -258,47 +233,71 @@ a{
     text-align: center;
     font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.64px;
+    outline: none;
+    border: unset;
 }
-.main-apps h2, .main-services h2, .main-concept h2{
+.application-description{
     color: var(--navyblue);
     font-family: Roboto;
     font-size: 20px;
-    font-style: normal;
     font-weight: 500;
     line-height: 24px;        
     letter-spacing: 0.4px;
 }
-.main-apps h3, .main-services h3, .main-concept h3{
+.application-name{
     color: var(--slate);
     font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
+}
+.services-application{
+    color: var(--navyblue);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+}
+.services-application-name{
+    color: var(--slate);
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+.concept-name{
+    color: var(--slate);
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+.concept-stories{
+    color: var(--navyblue);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
 }
 
 /* footer section */
 .footer-section {
     background: var(--navyblue);
 }
-
 .studio-footer {
     text-decoration: none;
     text-transform: uppercase;
     font-family: Raleway;
 }
-
-.footer-section p {
+.footer-paragraph {
     color: var(--cloud);
     font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
 }
@@ -306,18 +305,15 @@ a{
     color: var(--iris);
     font-family: Raleway;
     font-size: 18px;
-    font-style: normal;
     font-weight: 800;
     line-height: 21px;
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
-
 .footer-studio-list-link {
     color: var(--cloud);
     font-family: Raleway;
     font-size: 18px;
-    font-style: normal;
     font-weight: 800;
     line-height: 21px;
     letter-spacing: 0.54px;
