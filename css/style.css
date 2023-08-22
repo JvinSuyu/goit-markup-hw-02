@@ -89,6 +89,7 @@ a{
     letter-spacing: 0.64px;
     outline: none;
     border: unset;
+    cursor: pointer;
 }
 .features-list h3{
     color: var(--navyblue);
@@ -237,6 +238,7 @@ a{
     line-height: 24px;
     letter-spacing: 0.64px;
     outline: none;
+    cursor: pointer;
 }
 .portfolio-category-button:hover{
     background: var(--oceana);
