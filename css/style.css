@@ -220,15 +220,15 @@ a{
 
 
 /* main section*/
-.portfolio-item-button {
+.portfolio-category-button {
     display: flex;
     padding: 12px 24px;
     align-items: flex-start;
     border-radius: 4px;
-    background: var(--ocean);
-    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+    background: var(--cloud);
+    border: 1px solid var(--cornflower);
 }
-.portfolio-item-button {
+.portfolio-category-button {
     color: var(--iris);
     text-align: center;
     font-family: Roboto;
@@ -237,7 +237,12 @@ a{
     line-height: 24px;
     letter-spacing: 0.64px;
     outline: none;
-    border: unset;
+}
+.portfolio-category-button:hover{
+    background: var(--oceana);
+    color: var(--white);
+    border-color: var(--iris);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 .application-description{
     color: var(--navyblue);
@@ -262,30 +267,8 @@ a{
     line-height: 24px;
     letter-spacing: 0.4px;
 }
-.services-application-name{
-    color: var(--slate);
-    font-family: Roboto;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.32px;
-}
-.concept-name{
-    color: var(--slate);
-    font-family: Roboto;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.32px;
-}
-.concept-stories{
-    color: var(--navyblue);
-    font-family: Roboto;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.4px;
-}
 
-/* footer section */
+/* footer*/
 .footer-section {
     background: var(--navyblue);
 }
